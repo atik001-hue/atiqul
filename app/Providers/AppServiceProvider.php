@@ -13,7 +13,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        // app()->bind('service provider',function($app){
+
+        //     dd("test service");
+
+        // });
     }
 
     /**
